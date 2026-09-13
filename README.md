@@ -15,3 +15,9 @@ Les visuels Maison Noire et Atelier Nova sont présentés comme concepts, faute 
 
 ## Vérifications effectuées
 Rendu ordinateur inspecté dans le navigateur, sélection Signature confirmée dans le formulaire. Vérification mobile et réception e-mail à finaliser.
+
+## Visuels originaux
+Deux images créées avec ImageGen et intégrées dans assets/. Titres en HTML, chargement différé, textes alternatifs et zoom au survol avec respect du mouvement réduit. Fichiers et références vérifiés. Nouvelle vérification visuelle dans le navigateur bloquée par une erreur de connexion de l’aperçu local.
+
+## Maquettes de sites
+Les cartes affichent désormais maison-noire-site.png et atelier-nova-site.png : images de sites fictifs complets, non des sites interactifs. Affichage intégral au ratio 3:2 et ouverture en grand au clic. Les anciennes photographies sont conservées dans assets/.
