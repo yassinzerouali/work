@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YASSKY STUDIO — Sites web premium</title>
+<meta name="description" content="YASSKY STUDIO crée des sites web modernes, rapides et conçus pour convertir.">
+<meta name="theme-color" content="#080809">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#top">YASSKY<span>STUDIO</span></a>
+  <button class="menuBtn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobileMenu"><i></i><i></i></button>
+  <nav><a href="#services">Services</a><a href="#projets">Projets</a><a href="#studio">Studio</a><a href="#contact">Contact</a></nav>
+</header>
+<div class="mobileMenu" id="mobileMenu" inert><a href="#services">Services</a><a href="#projets">Projets</a><a href="#studio">Studio</a><a href="#contact">Contact</a></div>
+
+<main id="top">
+<section class="hero">
+  <div class="eyebrow reveal">Studio web indépendant • France & international</div>
+  <h1 class="reveal">Votre ambition.<br><em>Une autre dimension.</em></h1>
+  <p class="lead reveal">Identité, design, développement et performance. Une présence digitale pensée pour inspirer confiance et transformer vos visiteurs en clients.</p>
+  <div class="heroActions reveal"><a class="btn" href="#contact">Parler de mon projet ↗</a><a class="textLink" href="#studio">Explorer le studio ↓</a></div>
+  <div class="heroObject" aria-hidden="true"><div class="halo"></div><div class="screen"><div class="screenBar"><span>YASSKY STUDIO</span><span>Design. Développement. Émotion.</span></div><div class="screenWord">Make it<br><span>exceptional.</span></div><div class="screenFoot">UNE PRÉSENCE QUI CHANGE TOUT <span>↗</span></div></div><div class="screenBase"></div></div><div class="heroNote">PENSÉ POUR VOUS. CONÇU POUR DURER.</div>
+</section>
+
+<section class="expertise" aria-label="Expertises"><span>Design sur mesure</span><span>Développement</span><span>Performance</span><span>Responsive</span></section>
+
+<section id="services" class="section">
+ <div class="sectionHead reveal"><span>01 — Services</span><h2>Une offre claire.<br><em>Un résultat premium.</em></h2></div>
+ <div class="cards">
+  <article class="card reveal"><b>Essentiel</b><h3>À partir de 690 €</h3><p>Pour lancer une présence nette, rapide et crédible.</p><ul><li>1–3 pages</li><li>Design personnalisé</li><li>Responsive mobile</li><li>SEO essentiel</li></ul><a href="#contact" data-offer="Essentiel">Choisir Essentiel ↗</a></article>
+  <article class="card featured reveal"><div class="tag">Signature</div><b>Signature</b><h3>À partir de 1 090 €</h3><p>Pour une entreprise qui veut convaincre et se différencier.</p><ul><li>4–8 pages</li><li>Animations avancées</li><li>SEO complet</li><li>Formulaires & intégrations</li></ul><a href="#contact" data-offer="Signature">Choisir Signature ↗</a></article>
+  <article class="card reveal"><b>Business</b><h3>Sur devis</h3><p>Une expérience digitale complète pour les projets ambitieux.</p><ul><li>Architecture étendue</li><li>Fonctions sur mesure</li><li>Multilingue</li><li>Accompagnement lancement</li></ul><a href="#contact" data-offer="Business">Parlons de votre projet ↗</a></article>
+ </div>
+</section>
+
+<section class="dark stats">
+ <div class="sectionHead reveal"><span>Pourquoi investir ?</span><h2>Votre site travaille<br><em>avant même vous.</em></h2></div>
+ <div class="statGrid">
+  <div class="reveal"><strong data-count="3">3</strong><small>priorités : clarté, performance, identité.</small></div>
+  <div class="reveal"><strong data-count="24">24</strong><small>heures sur 24 : votre vitrine reste accessible.</small></div>
+  <div class="reveal"><strong data-count="100">100</strong><small>% adapté aux écrans mobiles et desktop.</small></div>
+ </div>
+</section>
+
+<section id="projets" class="section projects">
+ <div class="sectionHead reveal"><span>02 — Explorations créatives</span><h2>Deux univers.<br><em>La même exigence.</em></h2></div>
+ <div class="projectGrid">
+  <a class="project reveal" href="#contact"><div class="visual v1"><span>01</span><div>MAISON<br>NOIRE</div></div><h3>Maison Noire</h3><p>Concept visuel • Restaurant • Site vitrine</p></a>
+  <a class="project reveal" href="#contact"><div class="visual v2"><span>02</span><div>ATELIER<br>NOVA</div></div><h3>Atelier Nova</h3><p>Concept visuel • Architecture • Portfolio</p></a>
+ </div>
+</section>
+
+<section id="studio" class="split">
+ <div class="splitTitle reveal"><span>03 — Le studio</span><h2>Pas de template.<br><em>Pas de déjà-vu.</em></h2></div>
+ <div class="splitText reveal"><p>YASSKY STUDIO imagine des sites uniques pour les entreprises qui veulent être prises au sérieux dès le premier regard.</p><p>Chaque projet commence par votre activité, votre clientèle et votre objectif. Le design vient ensuite : utile, fluide et mémorable.</p><div class="pillrow"><span>Clarté</span><span>Performance</span><span>Conversion</span><span>Identité</span></div></div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="reveal"><span>04 — Contact</span><h2>Un projet en tête ?<br><em>Faisons-le exister.</em></h2><p>Décrivez votre besoin. Réponse sous 24–48 h.</p></div>
+ <form class="reveal" id="contactForm">
+<div class="formHeading">Votre projet commence ici.</div>
+  <div class="row"><label>Nom<input required autocomplete="name" maxlength="120" name="nom" placeholder="Votre nom"></label><label>Email<input required type="email" autocomplete="email" maxlength="254" name="email" placeholder="vous@email.com"></label></div>
+  <label>Votre projet<select name="projet"><option>Site vitrine</option><option>Refonte</option><option>Site business</option><option>Autre</option></select></label>
+  <div class="row"><label>Formule<select name="offre" id="offer"><option>À définir ensemble</option><option>Essentiel</option><option>Signature</option><option>Business</option></select></label><label>Budget indicatif<select name="budget"><option>À définir</option><option>690–1 090 €</option><option>1 090–2 500 €</option><option>Plus de 2 500 €</option></select></label></div>
+  <label>Message<textarea required minlength="20" maxlength="5000" name="message" rows="5" placeholder="Parlez-moi de votre projet..."></textarea></label>
+  <p class="formNote">Une demande pour échanger sur votre projet. Le montant final sera précisé dans votre devis personnalisé.</p>
+  <button class="btn" type="submit">Demander mon devis ↗</button><p id="formMsg" role="status" aria-live="polite"></p>
+ </form>
+</section>
+</main>
+<footer><a class="logo" href="#top">YASSKY<span>STUDIO</span></a><p>Sites web conçus pour être remarqués.</p><a href="#top">Retour en haut ↑</a></footer>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body></html>
